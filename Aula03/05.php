@@ -1,9 +1,9 @@
 <?php
 
-function Sooooma($num){
+function Suma($num){
 
-    return array_somas($num);
+    return array_sum($num);
 
 }
-echo Sooooma(array(12,37,1));
+echo Suma(array(12,37,1));
 ?>

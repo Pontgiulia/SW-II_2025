@@ -6,10 +6,10 @@
 
     $fatorando = 1;
     for ($b = 2; $b <= $num; $b++) {
-        $fatorial *= $b;
+        $fatorando *= $b;
     }
 
     echo "O fatorial de $num é: $fatorando";
     }
-    fatorial(30);
+    fatorando(11);
 ?>
