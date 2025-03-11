@@ -1,25 +1,25 @@
 <?php
 
-$optionA = 1;
-$optionB = 2;
-$optionC = 3;
+$EscolhaA = 5;
+$EscolhaB = 10;
+$EscolhaC = 15;
 
-$selecionei = $optionB;
+$selecionado = $EscolhaC;
 
-switch ($selecionei) {
+switch ($selecionado) {
     case 1:
-        echo "vc escolheu a opção A";
+        echo "O opção escolhida foi A";
         break;
     
     case 2:
-        echo "vc escolheu a opção B";
+        echo "A opção escolhida foi B";
         break;
     case 3:
-        echo "vc escolheu a opção C";
+        echo "A opção escolhida foi C";
         break;
     
     default:
-        echo "escolha uma opção";
+        echo "É necessário escolher uma opção para continuar";
         break;
 }
 

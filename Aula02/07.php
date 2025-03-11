@@ -1,11 +1,10 @@
 <?php
 
-$nomes = ["Enzo", "Caetano", "Lucas", "Aline", "Camila"];
+$nominhos = ["Giulia", "Aline", "Yellow", "Madu", "Julia"];
 
-foreach ($nomes as $nome) {
+foreach ($nominhos as $nomão) {
 
-    echo $nome."<br>";
+    echo $nomão."<br>";
     
 }
-
 ?>

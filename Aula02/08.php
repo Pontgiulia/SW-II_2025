@@ -1,9 +1,8 @@
 <?php
 
-$num = 10;
+$num = 35;
 
-for ($i=1; $i < 11 ; $i++) { 
-   echo  $num." x ".$i." = ".$num * $i."<br>";
+for ($ee=1; $ee < 11 ; $ee++) { 
+   echo  $num." x ".$ee." = ".$num * $ee."<br>";
 }
-
 ?>

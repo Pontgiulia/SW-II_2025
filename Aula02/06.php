@@ -1,11 +1,11 @@
 <?php
 
-$soma = 0;
+$sum = 0;
 
 for ($i=1; $i <= 50 ; $i++) { 
-    $soma += $i;
+    $sum += $i;
 }
 
-echo "A soma de 1 a 50 é: ". $soma;
+echo "A soma dos números 1 até 50 é: ". $sum;
 
 ?>

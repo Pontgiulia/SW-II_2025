@@ -1,11 +1,10 @@
 <?php
 
-$n = -4;
+$num = -35;
 
 if($n >= 0){
-    echo $n." é positivo";
+    echo $num."A variável é positiva";
 }else{
-    echo $n." é negativo";
+    echo $num."A variável é negativa";
 }
-
 ?>
