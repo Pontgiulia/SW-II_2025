@@ -5,8 +5,8 @@
         };
 
     $fatorando = 1;
-    for ($b = 2; $b <= $num; $b++) {
-        $fatorando *= $b;
+    for ($i = 2; $i <= $num; $i++) {
+        $fatorando *= $i;
     }
 
     echo "O fatorial de $num é: $fatorando";
