@@ -1,0 +1,23 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Giulia",
+      "email": "giuliapontelli@hotmail.com",
+      "idade": 17
+    },
+    {
+      "id": 2,
+      "nome": "Aline",
+      "email": "dantaslima@hotmail.com",
+      "idade": 17
+    },
+    {
+     "id": 3,
+      "nome": "Luiggi",
+      "email": "pontellifilippini@hotmail.com",
+      "idade": 22
+    }
+  ]
+}
+  

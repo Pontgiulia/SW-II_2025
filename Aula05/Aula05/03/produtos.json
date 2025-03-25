@@ -1,0 +1,15 @@
+{
+    "produto": "Pôster",
+    "preco": 20,
+    "quantidade": 1000,
+    "0": {
+        "produto": "Copo",
+        "preco": 30,
+        "quantidade": 500
+    },
+    "1": {
+        "produto": "Copo",
+        "preco": 30,
+        "quantidade": 500
+    }
+}

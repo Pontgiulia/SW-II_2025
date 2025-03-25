@@ -4,7 +4,7 @@ $conteudo = file_get_contents("usuarios.json");
 
 $dados = json_decode($conteudo, true);
 
-$email_procurado = isset($_GET['email']) ? $_GET['email'] : "takinhoverycrazy@email.com";
+$email_procurado = isset($_GET['email']) ? $_GET['email'] : "giuliapontelli@hotmail.com";
   
 $usuarios = $dados['usuarios'];
 
@@ -22,6 +22,7 @@ if ($usuario_encontrado) {
     echo "ID: ".$usuario_encontrado["id"]."<br>";
     echo "Nome: ".$usuario_encontrado["nome"]."<br>";
     echo "Email: ".$usuario_encontrado["email"]."<br>";
+    echo "Idade: ".$usuario_encontrado["iade"]."<br>";
    
 } else {
     echo "Usuário com o email '$email_procurado' não encontrado.";

@@ -3,13 +3,13 @@
 $conteudo = file_get_contents("produtos.json");
 $dados = json_decode($conteudo, true);
 
-$novo_produto = [
-    "produto" => "Fone",
-    "preco" => 40,
-    "quantidade"=> 150
+$new_produto = [
+    "produto" => "Copo",
+    "preco" => 30,
+    "quantidade"=> 500
 ];
 
-$dados[] = $novo_produto;
+$dados[] = $new_produto;
 
 file_put_contents("produtos.json", json_encode($dados, JSON_PRETTY_PRINT));
 
