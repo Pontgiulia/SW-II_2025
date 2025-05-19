@@ -16,13 +16,13 @@ $Cep = json_decode($response, true);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
     <title>Consulta de CEP</title>
 </head>
 
 <body>
     <div class="container">
-        <h1>Consulte um CEP</h1>
+        <h1>Consulte seu CEP</h1>
 
         <form class="search-form">
 
@@ -30,7 +30,7 @@ $Cep = json_decode($response, true);
                 oninput="this.value = this.value.replace(/[^0-9]/g, '')" value="<?php echo htmlspecialchars($input); ?>"
                 required>
 
-            <button type="submit">Buscar</button>
+            <button type="submit">Procurar</button>
         </form>
 
         <?php if (!empty($Cep) && !isset($Cep['erro'])): ?>
